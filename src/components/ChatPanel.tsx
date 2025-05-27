@@ -64,6 +64,7 @@ export default function ChatPanel({ item, onClose }: ChatPanelProps) {
       setQuery('');
       setCurrentItemName(null);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [item]);
 
   useEffect(() => {
@@ -148,11 +149,11 @@ export default function ChatPanel({ item, onClose }: ChatPanelProps) {
                 {msg.role === 'assistant' ? (
                   <ReactMarkdown 
                     components={{
-                      h3: ({node, ...props}) => <h3 className="text-lg font-semibold mt-2 mb-1 text-[#87CEEB]" {...props} />,
-                      ul: ({node, ...props}) => <ul className="list-disc list-inside ml-2 mb-2" {...props} />,
-                      ol: ({node, ...props}) => <ol className="list-decimal list-inside ml-2 mb-2" {...props} />,
-                      li: ({node, ...props}) => <li className="mb-1" {...props} />,
-                      p: ({node, ...props}) => <p className="mb-2 last:mb-0" {...props} />,
+                      h3: ({...props}) => <h3 className="text-lg font-semibold mt-2 mb-1 text-[#87CEEB]" {...props} />,
+                      ul: ({...props}) => <ul className="list-disc list-inside ml-2 mb-2" {...props} />,
+                      ol: ({...props}) => <ol className="list-decimal list-inside ml-2 mb-2" {...props} />,
+                      li: ({...props}) => <li className="mb-1" {...props} />,
+                      p: ({...props}) => <p className="mb-2 last:mb-0" {...props} />,
                     }}
                   >
                     {msg.content}

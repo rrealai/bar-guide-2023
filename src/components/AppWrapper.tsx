@@ -19,14 +19,6 @@ export default function AppWrapper({ children, onItemClick }: AppWrapperProps) {
     }
   }, [selectedItem, onItemClick]);
 
-  const handleItemClick = (item: Item) => {
-    setSelectedItem(item);
-    // Automatically trigger the initial chat message
-    setTimeout(() => {
-      // This will be handled by the ChatPanel component
-    }, 100);
-  };
-
   return (
     <>
       {children}
