@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Background ornamental pattern -->
+  <defs>
+    <pattern id="ornament" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="2" fill="#87CEEB" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Main decorative frame -->
+  <g fill="#87CEEB" stroke="#87CEEB" stroke-width="2">
+    <!-- Top ornament -->
+    <path d="M200 20 L210 30 L220 20 L230 30 L220 40 L210 30 L200 40 L190 30 L180 20 L190 30 Z"/>
+    
+    <!-- Left ornament -->
+    <path d="M20 150 L30 140 L40 150 L30 160 L40 170 L30 160 L20 170 L10 160 L20 150 Z"/>
+    
+    <!-- Right ornament -->
+    <path d="M380 150 L370 140 L360 150 L370 160 L360 170 L370 160 L380 170 L390 160 L380 150 Z"/>
+    
+    <!-- Bottom ornament -->
+    <path d="M200 280 L190 270 L180 280 L170 270 L180 260 L190 270 L200 260 L210 270 L220 280 L210 270 Z"/>
+    
+    <!-- Corner decorations -->
+    <circle cx="50" cy="50" r="8" fill="#87CEEB" opacity="0.6"/>
+    <circle cx="350" cy="50" r="8" fill="#87CEEB" opacity="0.6"/>
+    <circle cx="50" cy="250" r="8" fill="#87CEEB" opacity="0.6"/>
+    <circle cx="350" cy="250" r="8" fill="#87CEEB" opacity="0.6"/>
+  </g>
+  
+  <!-- Main text -->
+  <text x="200" y="120" font-family="serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#87CEEB">
+    Real
+  </text>
+  
+  <text x="200" y="180" font-family="serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#87CEEB">
+    Tacos
+  </text>
+  
+  <!-- Decorative elements around text -->
+  <g fill="#87CEEB" opacity="0.7">
+    <!-- Left side decoration -->
+    <path d="M80 100 L90 110 L80 120 L70 110 Z"/>
+    <path d="M70 140 L80 150 L70 160 L60 150 Z"/>
+    <path d="M80 180 L90 190 L80 200 L70 190 Z"/>
+    
+    <!-- Right side decoration -->
+    <path d="M320 100 L310 110 L320 120 L330 110 Z"/>
+    <path d="M330 140 L320 150 L330 160 L340 150 Z"/>
+    <path d="M320 180 L310 190 L320 200 L330 190 Z"/>
+  </g>
+  
+  <!-- Central diamond pattern -->
+  <g fill="#87CEEB" opacity="0.4">
+    <path d="M200 90 L210 100 L200 110 L190 100 Z"/>
+    <path d="M200 190 L210 200 L200 210 L190 200 Z"/>
+  </g>
+</svg> 
