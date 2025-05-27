@@ -215,10 +215,10 @@
   {
     "category": "GARNISH",
     "items": [
-      { "name": "Lime" },
-      { "name": "Orange" },
-      { "name": "Pineapple" },
-      { "name": "Grapefruit" }
+      { "name": "Lime", "recipe": "Fresh lime wheels and wedges for garnishing cocktails." },
+      { "name": "Orange", "recipe": "Fresh orange wheels and wedges for garnishing cocktails." },
+      { "name": "Pineapple", "recipe": "Fresh pineapple wedges and dehydrated pineapple for garnishing." },
+      { "name": "Grapefruit", "recipe": "Fresh grapefruit wheels and dehydrated grapefruit for garnishing." }
     ]
   },
   {

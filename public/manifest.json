@@ -1,24 +1,21 @@
 {
-  "name": "Rreal Tacos Bar Guide",
+  "name": "Bar Guide Interactive",
   "short_name": "Bar Guide",
-  "description": "Interactive bar guide for Rreal Tacos staff.",
+  "description": "Tu guía interactiva para preparar cócteles",
+  "start_url": "/",
+  "display": "fullscreen",
+  "background_color": "#ffffff",
+  "theme_color": "#208cd9",
   "icons": [
     {
-      "src": "/icons/icon-192x192.png",
+      "src": "/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icons/icon-512x512.png",
+      "src": "/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "start_url": "/",
-  "display": "fullscreen",
-  "orientation": "portrait",
-  "background_color": "#208cd9",
-  "theme_color": "#208cd9",
-  "scope": "/",
-  "prefer_related_applications": false
+  ]
 } 
